@@ -5,10 +5,10 @@ public class AC {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
-        double a = scanner.nextDouble();
+        int a = Integer.parseInt(args[0]);
 
         System.out.print("Enter the second number: ");
-        double b = scanner.nextDouble();
+        int b = Integer.parseInt(args[0]);
 
         System.out.println("1. Addition");
         System.out.println("2. Subtraction");
